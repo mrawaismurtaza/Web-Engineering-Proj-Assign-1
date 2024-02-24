@@ -1,0 +1,289 @@
+body{
+    font-family: Arial, sans-serif;
+}
+
+#flex-section{
+    height: 1500px;
+    background-color: black;
+    margin: 0px -8px 0px -8px;
+}
+
+#heading{
+    margin-top: 10%;
+    position: absolute;
+    align-items: center;
+}
+
+#heading h4{
+    color: white;
+    width: 100%;
+    margin-left: 505%;
+    opacity: 0.7;
+}
+
+#heading h1{
+    color: rgb(178, 252, 5);
+    width: 100%;
+    margin-left: 480%;
+    margin-top: -10%;
+    font-size: 36px;
+}
+
+#vertical-line{
+    margin: 20% 50% 0% 50%;
+    width: 3px;
+    height: 200%;
+    background-color: rgb(248, 248, 248);
+    position: absolute;
+    opacity: 0.6;
+}
+
+
+#line-circles{
+    margin: 16.5% 50% 0% 48.5%;
+    position: absolute;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 300%;
+}
+
+#line-corners{
+    width: 200px;
+    z-index: 1;
+}
+
+#corner-circle {
+    background-color: rgb(0, 0, 0);
+    font-size: 10px;
+    font-weight: bold;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: solid rgb(178, 252, 5);
+    color: white;
+    position: absolute;
+}
+
+
+
+
+#line-corners h2{
+    color: rgb(178, 252, 5);
+    font-size: 15px;
+    position: absolute;
+    margin-left: 60px;
+    margin-top: 26px;
+}
+
+
+
+#line-corners-left{
+    width: 200px;
+    z-index: 1;
+}
+
+
+#line-corners-left h2{
+    color: rgb(178, 252, 5);
+    font-size: 15px;
+    position: absolute;
+    margin-left: -100px;
+    margin-top: 26px;
+}
+
+#line-corners-left h4{
+    background-color: rgb(0, 0, 0);
+    font-size: 10px;
+    font-weight: bold;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: solid rgb(178, 252, 5);
+    color: white;
+    position: absolute;
+}
+
+.side-block-1 {
+    position: absolute;
+    height: 40%;
+    margin: 18% 0% 0% 33%;
+}
+
+  .slide-in-from-right {
+    animation: slideFromLeft 2s ease forwards;
+}
+
+@keyframes slideFromLeft {
+    0% {
+      transform: translateX(-100%);
+      opacity: 0;
+    }
+    100% {
+      transform: translateX(0%);
+      opacity: 1;
+    }
+}
+
+
+.side-block-1 iframe{
+    height: 70%;
+    width: 22%;
+}
+
+.side-block-1 p{
+    background-color: white;
+    opacity: 0.5;
+    width: 20%;
+    font-size: 10px;
+    padding: 1%;
+    text-align: right;
+    margin-top: -4px;
+}
+
+
+
+.side-block-2 {
+    position: absolute;
+    height: 40%;
+    margin: 62.4% 0% 0% 33%;
+  }
+
+
+.side-block-2 img{
+    height: 70%;
+    width: 22%;
+}
+
+.side-block-2 p{
+    background-color: white;
+    opacity: 0.5;
+    width: 20%;
+    font-size: 10px;
+    padding: 1%;
+    text-align: right;
+    margin-top: -4px;
+}
+
+
+
+
+.slide-in-from-left {
+    animation: slideFromright 2s ease forwards;
+  }
+
+  @keyframes slideFromright {
+    0% {
+      transform: translateX(200%);
+      opacity: 0;
+    }
+    100% {
+      transform: translateX(0%);
+      opacity: 1;
+    }
+  }
+
+
+
+.side-block-11 {
+    position: absolute;
+    height: 40%;
+    width: 15%;
+    margin: 40.1% 0% 0% 52.6%;
+}
+
+
+.side-block-11 iframe{
+    height: 70%;
+    width: 97%;
+}
+
+.side-block-11 p{
+    background-color: white;
+    height: 33%;
+    opacity: 0.5;
+    width: 87%;
+    font-size: 10px;
+    padding: 5%;
+    text-align: right;
+    margin-top: -4px;
+}
+
+
+
+
+
+
+.side-block-12 {
+    position: absolute;
+    height: 40%;
+    width: 15%;
+    margin: 84.5% 0% 0% 52.6%;
+}
+
+
+.side-block-12 img{
+    height: 70%;
+    width: 97%;
+}
+
+.side-block-12 p{
+    background-color: white;
+    height: 33%;
+    opacity: 0.5;
+    width: 87%;
+    font-size: 10px;
+    padding: 5%;
+    text-align: right;
+    margin-top: -4px;
+}
+
+
+
+#containers { 
+    position: relative;
+
+  }
+
+
+  #contents {
+    margin-top: 0px;
+    background-color: #f0f0f0;
+    position: relative;
+  }
+
+  #line-fillerr {
+    margin-top: 236px;
+    position: absolute;
+    top: 0;
+    left: 50.13%;
+    transform: translateX(-50%);
+    width: 3.5px;
+    background-color: rgb(178, 252, 5);
+    transition: height 0s ease; 
+  }
+
+
+
+
+  /* Footer Section CSS */
+
+  #footer-section{
+    background-color: #2596be;
+    height: 60px;
+    margin: 0% -8px -9px -2%;
+    padding: 1% 0% 0% 0%;
+  }
+
+  .footer-icon{
+    margin: 0% 0% -2% 32%;
+    font-size: 40px;
+    margin-bottom: 20px;
+    color: rgb(255, 255, 255);
+  }
